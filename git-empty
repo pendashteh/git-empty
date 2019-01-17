@@ -1,0 +1,9 @@
+#!/bin/sh
+
+if [ -d .git ]; then
+  echo "Already a git repository."
+  exit
+fi
+
+git init
+git commit --allow-empty -m "Empty."
