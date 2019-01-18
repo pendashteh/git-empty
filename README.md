@@ -15,7 +15,7 @@ Now you have a git repository with a valid branch which contains nothing.
 No, it's not. `git init` doesn't create a branch and you still need to make a commit to have a branch.
 
 ## Ok, got it, what is the usecase?
-It is a good practice to start a repository with a blank first commit. 
+It is a good practice to start a repository with a blank first commit. There are cases, where having an empty commit as the first commit would come handy. For example, when you need to create a branch that contains no history.
 
 # Install
 Add `git-empty` to your `$PATH` and now you can run `git empty` as a git subcommand.
