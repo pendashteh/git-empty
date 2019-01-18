@@ -1,4 +1,4 @@
-# git-empty
+# $ git empty
 A git plugin to create an empty git repository
 
 # Usage
@@ -6,7 +6,8 @@ A git plugin to create an empty git repository
 $ git empty
 
 Initialized empty Git repository in /path/to/here/.git/
-[master (root-commit) dd22b2e] Empty.                                                                                                                                                                         
+[master (root-commit) dd22b2e] Empty.
+
 ```
 Now you have a git repository with a valid branch which contains nothing.
 
