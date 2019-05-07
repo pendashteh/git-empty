@@ -6,4 +6,4 @@ if [ -d .git ]; then
 fi
 
 git init
-git commit --allow-empty -m "Empty."
+git commit --allow-empty -m "An absolutely empty repository created by git@github.com/pendashteh/git-empty.git :)"
